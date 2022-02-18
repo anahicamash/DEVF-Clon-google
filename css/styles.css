@@ -1,0 +1,29 @@
+nav{
+    
+}
+nav ol{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+nav li{
+    list-style: none;
+    
+    margin: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#profile{
+    width: 30px;
+}
+
+#puntos{
+    height: 25px;
+}
+
