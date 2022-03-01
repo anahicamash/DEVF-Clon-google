@@ -1,29 +1,112 @@
+body{
+    margin: 0px;
+}
 nav{
     
 }
-nav ol{
+nav ul{
     display: flex;
     justify-content: flex-end;
-    
-    
+    align-items: center;
+    margin-right: 10px;
 }
 
 nav li{
     list-style: none;
-    
-    margin: 2%;
+    margin-left: 2%;
 }
 
 a{
     text-decoration: none;
     color: black;
+
 }
 
 #profile{
-    width: 30px;
+    width: 32px;
 }
 
-#puntos{
-    height: 25px;
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
 }
 
+#main form{
+    border: solid 1px;
+    border-radius: 50px;
+    width: 638px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    margin: 3% 0%;
+}
+
+#main form #search{
+    margin: 0px 20px;
+    flex-grow: 0;
+}
+
+#main form input{
+    flex-grow: 2;
+    border-style: none;
+    outline: none;
+}
+
+#main form #micro{
+    margin: 0px 20px;
+    flex-grow: 0;
+    display: flex;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+button{
+    background-color:rgb(218, 216, 216) ;
+    border-style: none;
+    border-radius: 3px;
+    padding: 2% 5.5%;
+    margin: 3px;
+}
+
+#offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+#offer a{
+    margin-left: 1%;
+    color: blue;
+}
+
+footer{
+    background-color: rgb(218, 216, 216) ;
+    width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+footer p{
+    margin-left: 2%;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+footer li{
+    margin: 0px 8px;
+}
